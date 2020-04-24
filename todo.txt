@@ -9,7 +9,7 @@ Parts to Do:
 [done] clean these smiles using inbuilt cleaner 
 [done] cluster the cleaned smiles into 30 sets, find 1 centric smile from each cluster
 [doing] Randomly take 1 compound out of each cluster and test the binding affinity
-run a binding affinity in pyrx for each of these 30 smiles and find the binding affinity 
+[doing] run a binding affinity in pyrx for each of these 30 smiles and find the binding affinity 
 take the max |affinity| smiles ( 3 - 10 ( idk try) ) and find the tanimoto score similarity for the max|affinity| smile generated from the last step
 print out the actual molecules with the max |affinity|
 
