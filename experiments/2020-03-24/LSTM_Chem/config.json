@@ -1,6 +1,6 @@
 {
   "exp_name": "LSTM_Chem",
-  "data_filename": "./datasets/dataset_cleansed_covid19.smi",
+  "data_filename": "./datasets/known_inhibitors_for_corona_virus.smi",
   "data_length": 0,
   "units": 256,
   "num_epochs": 22,

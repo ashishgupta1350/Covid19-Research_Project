@@ -1,11 +1,17 @@
-data_filename - > filepath for smiles
-data_length - > 128
+Done Part:
+Add the source code from Base De Novo Design to the repo
+Get some smiles on potential treatement cures of corona virus
 
-num_epochs - > (can be changed to <24)
-
-batch_size = 256? -> 64 ??
-
-
+Parts to Do:
+[done] save these smiles into a SMI file and clean the smiles using inbuilt cleaner
+[done] check if these smiles are valid 
+[done] fine tune the model, generate 1000+ smiles
+[done] clean these smiles using inbuilt cleaner 
+[done] cluster the cleaned smiles into 30 sets, find 1 centric smile from each cluster
+[doing] Randomly take 1 compound out of each cluster and test the binding affinity
+run a binding affinity in pyrx for each of these 30 smiles and find the binding affinity 
+take the max |affinity| smiles ( 3 - 10 ( idk try) ) and find the tanimoto score similarity for the max|affinity| smile generated from the last step
+print out the actual molecules with the max |affinity|
 
 We have to do several things:
 1) Download the dataset and reform the code to get csv files

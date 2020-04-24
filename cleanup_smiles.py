@@ -47,10 +47,10 @@ def main(input_file, output_file, **kwargs):
     out_smiles = []
     st = SmilesTokenizer()
 
-    if kwargs['finetune']:
+    if True or kwargs['finetune']:
         for cl_smi in cl_smiles:
             tokenized_smi = st.tokenize(cl_smi)
-            if 34 <= len(tokenized_smi) <= 74:
+            if 34 <= len(tokenized_smi) <= 100:
                 out_smiles.append(cl_smi)
     else:
         out_smiles = cl_smiles
