@@ -1,0 +1,17 @@
+data_filename - > filepath for smiles
+data_length - > 128
+
+num_epochs - > (can be changed to <24)
+
+batch_size = 256? -> 64 ??
+
+
+
+We have to do several things:
+1) Download the dataset and reform the code to get csv files
+2) Clean the csv / sql data to just get those SMILES string talked in paper
+3) Train the model using the code provided
+4) Generate 1000 SMILES string
+5) Run the affinity check on 30 samples
+6) Find the structures with max Timosimilarity to the one that has highest |affinity| 
+7) Rank them in order and generate prediction ( The molecules should have atleast <-11 affinity)
