@@ -1,0 +1,4 @@
+Download the experiment folder
+Copy the experiment folder into main directory of corona virus project
+Run the model
+That's it...
