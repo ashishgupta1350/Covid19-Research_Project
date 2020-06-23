@@ -10,7 +10,7 @@ and paste the experiments folder in the main directory.
 * https://www.youtube.com/watch?v=1LJgkovowgA ( Taken from Siraj Rawals challenge on How to Treat Corona Virus using State of the Art Deep Learning Techniques "without" knowing too much biology )
 
 ### The Solution 
-* https://www.youtube.com/watch?v=EVoZMRmtBkY ( 6:33 -> end of the video though I suggest watching the entire video ). The solution is given by Matt O Connor and Is one of the best solutions I found due to it's little dependence on understanding biology and more focus on Chemistry ( ~level is class 11 )
+* https://www.youtube.com/watch?v=EVoZMRmtBkY ( 6:33 -> end of the video though I suggest watching the entire video ). The solution is given by Matt O Connor is one of the best solutions I found due to it's little dependence on understanding biology and more focus on Chemistry ( ~level is class 11 ). You may need to understand a bit about Recurrent Neural Networks (RNN). It's kind of easy , just your another Mid-Sem like topic. Watch a youtube video or 2.
 
 * Read this paper then : https://onlinelibrary.wiley.com/doi/full/10.1002/minf.201700111 -- Don't get intimidated by the paper, On paper it is really simple. If you don't understand it, call me, I'll explain it. 
 
